@@ -1,0 +1,13 @@
+streamlit==1.29.0
+selenium
+numpy
+openai
+openpyxl
+schedule
+monsterapi
+MouseInfo
+facebook-sdk
+chromedriver_autoinstaller
+pandas
+pymongo
+beautifulsoup4==4.12.2
