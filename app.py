@@ -302,7 +302,8 @@ def retrieve_profiles_and_pages(browser):
 # Function to switch the selected profile
 def app_creation(browser, App_name):
     browser.get("https://business.facebook.com/login/?next=https%3A%2F%2Fdevelopers.facebook.com%2F%3Fbiz_login_source%3Dbizweb_unified_login_fb_login_button")
-    browser.maximize_window() 
+    browser.maximize_window()
+    time.sleep(4)
     element_to_click = browser.find_element(By.XPATH, "/html/body/div[1]/div[5]/div[1]/div[2]/div/div[2]/ul/li[5]/a/div[1]")
     element_to_click.click()
                 #print("clicked get started button")
